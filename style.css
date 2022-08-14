@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Rubik+Moonrocks&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("/Images/bitcoin homepage.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  z-index: 1;
+}
+
+.para {
+  background-image: url("/Images/crypto-currency-3d-background-581597.jpg");
+  height: 100vh;
+  -webkit-box-shadow: 3px 8px 8px;
+  box-shadow: 3px 8px 8px;
+  /* Create the scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 4px rgba(0, 0, 0, 0.556) solid;
+}
+
+.header {
+  background-color: #000100;
+  background-color: rgba(34, 40, 33, 0.712);
+  border: 4px solid black;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  font-family: "Festive", cursive;
+  font-family: "Rubik Moonrocks", cursive;
+}
+
+h1 {
+  color: gold;
+  font-family: "Festive", cursive;
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 72px;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 2px 5px 2px red;
+  padding: 25px;
+}
+
+.Information {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 15px;
+  color: gold;
+  text-shadow: 2px 5px 2px red;
+}
+
+.navbar {
+  margin: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(purple), to(grey));
+  background-image: linear-gradient(purple, grey);
+  color: white;
+  display: block;
+  width: calc(40rem + 10px);
+}
+
+.navbar-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.container-f {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-item {
+  margin: 5px;
+}
+
+.nav-item:hover {
+  background-color: gold;
+}
+
+#SearchButton {
+  background-color: black;
+}
+
+#SearchButton:hover {
+  background-color: gold;
+}
+
+.bitcoin-image {
+  width: 50px;
+  margin-left: auto;
+}
+
+#BodyPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  padding-bottom: 10vh;
+  padding-top: 3vh;
+}
+
+.switch {
+  position: absolute;
+  right: 10%;
+  display: inline-block;
+  width: 50px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 0, 0, 0.633);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input:checked + .slider {
+  background-color: green;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px green;
+  box-shadow: 0 0 1px green;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 50%;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.about {
+  margin-top: 20px;
+  margin-bottom: 40vh;
+  background-color: black;
+  font-size: 25px;
+  color: gold;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mypicture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.personal-info-container {
+  padding: 5px;
+}
+
+.personal-details {
+  margin-bottom: 10px;
+}
+
+#myProgress {
+  width: 600px;
+  background-color: #ddd;
+}
+
+#ProgressBar {
+  width: 10%;
+  height: 30px;
+  background-color: blue;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.card {
+  width: 20rem;
+  height: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(grey), to(pink));
+  background-image: linear-gradient(grey, pink);
+}
+
+.MoreInfoDiv {
+  display: none;
+  padding: 10px;
+  margin: 30px;
+}
+
+.MoreInfoDiv .DivInfoImage {
+  position: absolute;
+  right: 10%;
+}
+
+.toggledCoins {
+  list-style: none;
+  margin: 20px;
+}
+
+.toggledCoins li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.coinsToggle {
+  display: inline-block;
+  -webkit-box-flex: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  text-align: left;
+  margin: 5px;
+}
+
+.button-toggle {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: right;
+  margin: 5px;
+}
+
+#chartContainer {
+  height: 380px;
+  width: 100%;
+}
+
+.CoinNotFound {
+  width: 50%;
+  height: 70%;
+  margin-left: 25%;
+}
+@media screen and (min-width: 1200px) {
+  /* 3 cards in a row */
+  .navbar {
+    width: calc((20rem * 3) + (10px * 2));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* 1 cards in a row */
+  .container {
+    max-width: 100%;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .header {
+    width: calc(100% - 2rem);
+  }
+}
+
+@media screen and (max-width: 585px) {
+  h1 {
+    font-size: 10vw;
+  }
+  .bitcoin-image {
+    display: none;
+  }
+  .container-f {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
