@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("Images/bitcoin homepage.jpg");
+  background-image: url("./Images/bitcoin homepage.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -15,7 +15,7 @@ body {
 }
 
 .para {
-  background-image: url("Images/crypto-currency-3d-background-581597.jpg");
+  background-image: url("./Images/crypto-currency-3d-background-581597.jpg");
   height: 100vh;
   -webkit-box-shadow: 3px 8px 8px;
   box-shadow: 3px 8px 8px;
