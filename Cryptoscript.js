@@ -445,7 +445,7 @@ $(() => {
       $("#BodyPage").html(`
           <div>
           
-          <img class="CoinNotFound" src="./Images/coin-not-found.png" alt="Coin Not Found">
+          <img class="CoinNotFound" src="Images/coin-not-found.png" alt="Coin Not Found">
           </div>
           `);
     }
