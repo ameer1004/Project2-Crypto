@@ -227,7 +227,7 @@ $(() => {
     clearInterval(interval);
     $("#BodyPage").html(`
     <div class="about">
-    <img class="mypicture" src="/project2-Cryptonite/Images/my-passport-photo1.jpg" alt="picture-for-me">
+    <img class="mypicture" src="Images/my-passport-photo1.jpg" alt="picture-for-me">
 
           <div class=""personal-info-container>
           <div class="personal-details">
